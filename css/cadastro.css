@@ -1,0 +1,94 @@
+body {
+
+background-image: url(../img/image\ 19.png);
+
+}
+
+#cadastro {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+    box-shadow: #fff;
+
+}
+.principal {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.texto {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+
+}
+.texto::after {
+
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+     display: block;
+     margin-top: -17px;
+     margin-left: -5px;
+
+}
+
+.texto-r  {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+    margin: 15px;
+}
+.rayssa {
+
+    display: flex;
+     flex-direction: column;
+
+}
+
+.rayssa .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #a13854;
+
+    border:none;
+color:#231010;
+margin: 10px;
+
+}
+.oi{
+    margin: 15px;
+    
+}
+
+.rayssa a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+h2{
+    text-align: center;
+}
