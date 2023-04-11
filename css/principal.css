@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgba(127, 237, 200, 0.61);
+  
+}
+.cabecalho{
+    background-color: #66e5bd96;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+.cabecalho > img{
+    height: 30px;
+}
+.menu{
+    display: flex;
+}
+.menu>li{
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.menu>li >a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+.menu> li:hover{
+    background-color: rgb(130, 54, 216);
+}
+.principal{
+    background-image: url(../img/image\ 3.png);
+   height: 550px;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   flex-direction: column;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-shadow: 2px  black;
+   box-shadow: 0px 3px 10px #5023e6;
+}
+.botao{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgba(0,0, 0, 0.5);
+    padding: 5px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: rgb(16, 10, 10);
+    margin: 15px;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a998e2;
+    text-align: center;
+}
+.texto2>img{
+    width: 30%;
+    margin: 30px;
+}
+.botao3{
+    color: black;
+    padding: 15px;
+    text-decoration: white;
+    border-radius: 60px;
+    border:solid rgb(0, 0, 0) 2px;
+    margin: 6px;
+    
+}
+.botao3:hover{
+    background-color: rgb(151, 225, 219);
+     transform: scale(1.1);
+     transition: all 0.5s;
+     padding: 5px;
+}
+.texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a998e2;
+    margin: 25px;
+    text-align: center;
+}
+.rayssa{
+    width: 50%;
+    padding: 50px;
+}
+.texto3>img{
+    width: 30%;
+    margin: 30px;
+}
+h1{
+     color: white;
+}
+.texto4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a998e2;
+    text-align: center;
+}
+.texto4>img{
+    width: 25%;
+    margin: 35px;
+}
+.texto5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a998e2;
+    text-align: center;
+}
+.texto5>img{
+    width: 25%;
+    margin: 35px;
+}
+.oi{
+    text-align: center;
+}
+.sabores{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+ 
+ }
+ .sabor{
+    
+     margin: 50px;
+     border-radius:8px;
+ }
+
+ .sabor>img{
+     border-radius:8px;
+ }
+ footer{
+    box-shadow: 0 -3px #888888;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.final{
+    text-align: center;
+}
+footer .infos{
+    display: flex;
+    margin: auto;
+}
+footer .infos ul{
+    list-style-type: none;
+    margin-left: 30px;
+    margin: 60px;
+}
+footer .icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 60px;
+}
+footer .icons li{
+    margin-left: 60px;
+    margin: 20px;
+}
+footer .politicasflex{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
