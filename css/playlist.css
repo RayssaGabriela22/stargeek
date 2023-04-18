@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(22,1,57);
+background: linear-gradient(90deg, rgba(22,1,57,1) 0%, rgba(131,70,238,1) 49%, rgba(6,0,17,1) 100%);
+}
+
+.cabecalho {
+    background-color: rgba(0, 0, 0, 0.833);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho>img {
+    height: 80px;
+    margin: 15px;
+
+}
+
+.menu>img {
+    height: 80px;
+    margin: 1px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.menu>li:hover {
+    background-color: rgba(255, 255, 255, 0.17);
+}
+
+
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(11,0,82);
+background: linear-gradient(90deg, rgba(11,0,82,1) 0%, rgba(199,119,245,1) 49%, rgba(44,16,97,1) 100%);
+    text-align: center;
+}
+.texto2> img{
+margin: 10px;
+align-items: center;
+padding: 40px;
+}
+.ra{
+    margin: 20px;
+ text-align: center;
+}
+.chuchu{
+    width: 40%;
+    padding: 50px;
+    background-color: black;
+    margin: 12px;
+}
+.botao5{
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 5px white;
+    margin: 10px;
+    color: white;
+}
+.botao5:hover{
+    background-color: rgba(253, 243, 243, 0.363);
+  
+}
+.botão3{
+background-color: rgba(42, 41, 41, 0.996);
+padding: 10px;
+text-decoration: white;
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgb(0, 0, 0);
+margin: 10px;
+color: white;
+}
+
+.musicas{
+    min-height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+.img-ram{
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.musicas1{
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.listas-musicas{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.titulo-musica{
+    color: white;
+    text-shadow: 0px 0px 15px white;
+}

@@ -29,7 +29,6 @@ background-image: url(../img/image\ 19.png);
 }
 
 .texto {
-    padding-bottom: 50px;
     opacity: 0.8;
     color: #fff;
 
@@ -91,4 +90,17 @@ margin: 10px;
 }
 h2{
     text-align: center;
+}
+.botao{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
 }

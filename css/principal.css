@@ -6,11 +6,13 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
-    background-color: rgba(127, 237, 200, 0.61);
+    background: rgb(11,0,82);
+background: linear-gradient(90deg, rgba(11,0,82,1) 0%, rgba(0,77,238,1) 49%, rgba(44,16,97,1) 100%);
+
   
 }
 .cabecalho{
-    background-color: #66e5bd96;
+    background-color: #00000096;
     justify-content: space-between;
     display: flex;
     padding-left: 20px;
@@ -188,4 +190,13 @@ footer .politicasflex{
     display: flex;
     list-style-type: none;
     justify-content: center;
+}
+
+.premium{
+    color: #ffffff;
+    text-shadow: 0px 0px 15px white;
+}
+
+li{
+    color: white;
 }
